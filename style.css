@@ -1,0 +1,45 @@
+h1, h2 
+{
+    color: #be123c;
+}
+
+.bevezeto{
+    font-style: italic;
+}
+
+.fontos{
+    background-color: #fef3c7;
+    padding: 6px 10px;
+}
+
+.hozzavalok li{
+    color: #0369a1;
+}
+
+h2 + p{
+    font-weight: bold;
+}
+
+a:hover{
+    color: #be123c;
+}
+
+a:active{
+    color: #f59e1b;
+}
+
+.hozzavalok :nth-child(even){
+    background-color: #fcadf0;
+}
+
+.hozzavalok :last-child{
+    font-weight: bold;
+}
+
+input:focus{
+outline: 3px solid #fb7185;
+}
+
+.ar::after{
+content: " Ft";
+}
